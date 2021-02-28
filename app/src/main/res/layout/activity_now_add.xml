@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NowAdd">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/checkboxBT1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1번 통 배식량: "/>
+                <TextView
+                    android:id="@+id/checkboxBT1_gram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"/>
+            </LinearLayout>
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/checkboxBT2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2번 통 배식량: "/>
+                <TextView
+                    android:id="@+id/checkboxBT2_gram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"/>
+            </LinearLayout>
+            <LinearLayout
+                android:padding="10dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/checkboxBT3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3번 통 배식량: "/>
+                <TextView
+                    android:id="@+id/checkboxBT3_gram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="10dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1번 통 배식량: "/>
+            <EditText
+                android:id="@+id/NowBottle1"
+                android:inputType="number"
+                android:layout_width="10mm"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2번 통 배식량: "/>
+            <EditText
+                android:layout_marginLeft="5dp"
+                android:id="@+id/NowBottle2"
+                android:inputType="number"
+                android:layout_width="10mm"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3번 통 배식량: "/>
+            <EditText
+                android:id="@+id/NowBottle3"
+                android:inputType="number"
+                android:layout_width="10mm"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:padding="5dp"
+                android:id="@+id/NowModB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="변경"/>
+            <Button
+                android:padding="5dp"
+                android:id="@+id/NowCancelB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="취소"/>
+            <Button
+                android:padding="5dp"
+                android:id="@+id/NowAutoB"
+                android:text="자동계산"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

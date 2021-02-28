@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1092974802592",
+    "firebase_url": "https://petcare-master-df8cb.firebaseio.com",
+    "project_id": "petcare-master-df8cb",
+    "storage_bucket": "petcare-master-df8cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092974802592:android:1c41fca6e4c81bb024bbc5",
+        "android_client_info": {
+          "package_name": "com.jhlee.petcaremaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092974802592-emhr5a0viv1euclnl9ou9hnrkir53ko0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaejhowhA8gajtx5bu0Ye7blAbUP5mSYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092974802592-emhr5a0viv1euclnl9ou9hnrkir53ko0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

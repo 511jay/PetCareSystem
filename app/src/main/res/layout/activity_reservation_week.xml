@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReservationWeek">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ResWeekAddB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="요일"/>
+
+            <Button
+                android:id="@+id/is_alwaysB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="항상" />
+
+            <TextView
+                android:id="@+id/CheckWeekByText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/CheckAlwaysByText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/ResWeekTimeAddB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="시간"/>
+            <TextView
+                android:id="@+id/CheckTimeByText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/BT1B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1번통"/>
+            <Button
+                android:id="@+id/BT2B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2번통"/>
+            <Button
+                android:id="@+id/BT3B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3번통"/>
+
+            <Button
+                android:id="@+id/is_autoB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="자동 계산" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1번 통 배식량: "/>
+        <TextView
+            android:id="@+id/BT1_check_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2번 통 배식량: "/>
+        <TextView
+            android:id="@+id/BT2_check_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3번 통 배식량: "/>
+        <TextView
+            android:id="@+id/BT3_check_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/WeekAddB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="추가"/>
+
+        <Button
+            android:id="@+id/WeekCancleB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="취소"/>
+    </LinearLayout>
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
